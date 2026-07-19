@@ -1,0 +1,1 @@
+const s="maison-photos";function o(t){try{sessionStorage.setItem(s,JSON.stringify(t))}catch{}}function e(){try{const t=sessionStorage.getItem(s);return t?JSON.parse(t):[]}catch{return[]}}export{e as l,o as s};
